@@ -48,6 +48,13 @@ button {
   border-radius: .6rem;
 
   margin-top: 3.2rem;
+
+  cursor: pointer;
+  transition: filter 0.2s;
+}
+
+button:hover {
+  filter: brightness(0.9);
 }
 
 h1, h2 {
